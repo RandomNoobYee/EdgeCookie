@@ -7,9 +7,9 @@
 #define CLIENT_MAC "3c:fd:fe:b3:12:cc"
 #define SERVER_MAC "3c:fd:fe:b0:f5:24"
 #define ATTACKER_MAC "3c:fd:fe:b5:00:4"
-#define CLIENT_R_MAC "90:e2:ba:b3:bb:7c"
-#define SERVER_R_MAC "90:e2:ba:b3:bb:7d"
-#define ATTACKER_R_MAC "90:e2:ba:b3:bb:7c"
+#define CLIENT_R_MAC "90:e2:ba:2f:64:51"
+#define SERVER_R_MAC "90:e2:ba:29:f6:40"
+#define ATTACKER_R_MAC "90:e2:ba:83:c6:49"
 #define CLIENT_IP ("10.18.0.3")
 #define SERVER_IP ("10.19.0.3")
 #define ATTACKER_IP ("10.18.0.4")
@@ -23,7 +23,7 @@
     Check the server's interface by ip addr show, then set
     SERVER_IF to that number    */
 #define XDP_DRV 1
-#define SERVER_IF 2
+#define SERVER_IF 3
 
 
 
