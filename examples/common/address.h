@@ -4,12 +4,12 @@
 /*  Manully set the address information 
     ***_R_F mean the argument order of
     ./swith_agent -i <order0> -i <order1>   */
-#define CLIENT_MAC "90:e2:ba:87:6a:f1"
-#define SERVER_MAC "90:e2:ba:84:d5:ec"
-#define ATTACKER_MAC "90:e2:ba:26:f0:bd"
-#define CLIENT_R_MAC "90:e2:ba:38:38:ad"
-#define SERVER_R_MAC "90:e2:ba:38:38:ac"
-#define ATTACKER_R_MAC "90:e2:ba:38:38:ad"
+#define CLIENT_MAC "90:e2:ba:26:f0:bc"
+#define SERVER_MAC "90:e2:ba:38:38:ad"
+#define ATTACKER_MAC "90:e2:ba:87:6a:f0"
+#define CLIENT_R_MAC "90:e2:ba:84:d5:ec"
+#define SERVER_R_MAC "90:e2:ba:84:d5:ed"
+#define ATTACKER_R_MAC "90:e2:ba:84:d5:ec"
 #define CLIENT_IP ("10.18.0.3")
 #define SERVER_IP ("10.19.0.3")
 #define ATTACKER_IP ("10.18.0.4")
@@ -23,7 +23,7 @@
     Check the server's interface by ip addr show, then set
     SERVER_IF to that number    */
 #define XDP_DRV 1
-#define SERVER_IF 3
+#define SERVER_IF 5
 
 
 
